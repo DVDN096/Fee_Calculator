@@ -1,0 +1,125 @@
+
+.container{
+    background-color: hsl(0, 0%, 100%, 0.5);
+    display: flex;
+    width: 650px;
+    line-height: 7px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color:black;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%,-50%);
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
+.leftbox{
+    width: 300px;
+    padding-top: 5px;
+    color:aliceblue;
+}
+.insideBox{
+    width: 350px;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    margin-left: 5px;
+    border-radius: 15px;
+    background-color: hsl(0, 5%, 73%,0.5);
+}
+.rightBox{
+    width: 280px;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    padding-left: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    border-radius: 15px;
+    background-color: white;
+    height: 300px;
+    background-color: hsl(0, 5% , 73%, 0.5);
+}
+.amount_box{
+    background-color: white;
+    width: 170px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 80px;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    border-radius: 10px;
+}
+.border_table{
+    width: 200px;
+    height: 210px;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    margin-left: 10px;   
+    padding-right: 40px;
+    padding-top: 10px; 
+    border-radius: 10px;
+    background-color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Graphic-Era-University-Dehradun.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.LOGO{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+.Navbar{
+    padding: 0;
+    background-color: black;
+}
+.NavDiv{
+    padding: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    padding-top: 10px;
+   list-style: none;
+   display: inline-block; 
+   color: white;
+   margin-right: 15px;
+   font-weight: 300;
+   font-size: 17px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.LOGO a{
+    color: white;
+    text-decoration: none;
+}
